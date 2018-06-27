@@ -46,6 +46,7 @@ Gulp.prototype.watch = function(glob, opt, task) {
 };
 
 // Let people use this class from our instance
+//change
 Gulp.prototype.Gulp = Gulp;
 
 var inst = new Gulp();
